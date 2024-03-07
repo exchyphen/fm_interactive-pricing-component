@@ -3,6 +3,7 @@
   --clr-slider-bar: hsl(174, 77%, 80%);
   --clr-slider-bar-bg: hsl(224, 65%, 95%);
   --clr-slider-bg: hsl(174, 86%, 45%);
+  --clr-slider-hover-bg: hsl(175, 63%, 41%);
   --clr-discount-bg: hsl(14, 92%, 95%);
   --clr-discount-text: hsl(15, 100%, 70%);
   --clr-cta-text: hsl(226, 100%, 87%);
@@ -34,12 +35,19 @@ body {
   min-height: 100vh;
   min-height: 100svh;
 
+  background-color: var(--clr-main-bg);
+  background-image: url("./assets/images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  /* dev: restrict height maybe? */
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #root {
+
   display: flex;
   flex-direction: column;
   justify-content: center;

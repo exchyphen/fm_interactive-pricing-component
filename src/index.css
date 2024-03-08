@@ -38,8 +38,7 @@ body {
   background-color: var(--clr-main-bg);
   background-image: url("./assets/images/bg-pattern.svg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  /* dev: restrict height maybe? */
+  background-size: 100% 50%;
 
   display: flex;
   justify-content: center;
